@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using System.Data;
 using System.Diagnostics;
 using SwinGameSDK;
+using ISeaGrid.cs;
 
 /// <summary>
 /// The SeaGrid is the grid upon which the ships are deployed.
