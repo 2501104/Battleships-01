@@ -6,5 +6,3 @@ This compiler is provided as part of the Microsoft (R) .NET Framework, but only 
 
 src\Model\AIPlayer.cs(20,18): warning CS0660: 'AIPlayer.Location' defines operator == or operator != but does not override Object.Equals(object o)
 src\Model\AIPlayer.cs(20,18): warning CS0661: 'AIPlayer.Location' defines operator == or operator != but does not override Object.GetHashCode()
-src\MenuController.cs(144,47): error CS0103: The name 'GameFont' does not exist in the current context
-src\MenuController.cs(155,44): error CS0103: The name 'GameFont' does not exist in the current context

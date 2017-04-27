@@ -125,7 +125,7 @@ static class HighScoreController
 		if (_Scores.Count == 0)
 			LoadScores();
 		SwinGame.DrawText("   High Scores   ", Color.White, GameResources.GameFont("Courier"), SCORES_LEFT, SCORES_HEADING);
-
+		MenuController.DrawMainMenu();
 		//For all of the scores
 		int i = 0;
 		for (i = 0; i <= _Scores.Count - 1; i++) {

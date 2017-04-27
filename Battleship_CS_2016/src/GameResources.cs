@@ -136,23 +136,23 @@ public static class GameResources
 
 		ShowMessage("Loading fonts...", 0);
 		LoadFonts();
-		SwinGame.Delay(100);
+		SwinGame.Delay(70);
 
 		ShowMessage("Loading images...", 1);
 		LoadImages();
-		SwinGame.Delay(100);
+		SwinGame.Delay(250);
 
 		ShowMessage("Loading sounds...", 2);
 		LoadSounds();
-		SwinGame.Delay(100);
+		SwinGame.Delay(80);
 
 		ShowMessage("Loading music...", 3);
 		LoadMusic();
-		SwinGame.Delay(100);
+		SwinGame.Delay(200);
 
 		SwinGame.Delay(100);
 		ShowMessage("Game loaded...", 5);
-		SwinGame.Delay(100);
+		SwinGame.Delay(160);
 		EndLoadingScreen(width, height);
 	}
 
