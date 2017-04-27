@@ -200,6 +200,9 @@ static class HighScoreController
 			_Scores.Add(s);
 			_Scores.Sort();
 
+			// Need to call SaveScores function to add the new score to highscores.txt
+			SaveScores();
+			
 			GameController.EndCurrentState();
 		}
 	}
