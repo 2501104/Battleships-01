@@ -17,6 +17,7 @@ public static class GameResources
 		NewFont("CourierSmall", "cour.ttf", 8);
 		NewFont("Menu", "ffaccess.ttf", 8);
 		NewFont("Menu2", "ffaccess.ttf", 16);
+		NewFont("WinLose", "BlackOpsOne-Regular.ttf", 80);
 	}
 
 	private static void LoadImages()
